@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" aria-labelledby="title desc" role="img" viewBox="0 0 1100 520">
+  <title id="title">Codex App 設定入口速查</title>
+  <desc id="desc">把 Codex App 設定分成基礎體驗、執行邊界和擴充能力三組。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F2F7F6"/>
+      <stop offset="1" stop-color="#DCECE8"/>
+    </linearGradient>
+    <style>
+      .title{font:800 34px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .sub{font:500 18px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .h{font:800 24px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .p{font:500 16px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .chip{font:700 18px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+      .note{font:500 15px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#475569}
+    </style>
+  </defs>
+  <rect width="1100" height="520" rx="28" fill="url(#bg)"/>
+  <text x="48" y="56" class="title">設定先分三層看</text>
+  <text x="48" y="106" class="sub">先把體驗調順，再設定安全邊界，最後依照任務接入外部工具。</text>
+
+  <g transform="translate(48 142)">
+    <rect width="310" height="300" rx="18" fill="#FFFFFF" stroke="#BFD0CC"/>
+    <circle cx="38" cy="42" r="15" fill="#0F6F68"/>
+    <text x="66" y="50" class="h">基礎體驗</text>
+    <text x="28" y="92" class="p">讓介面、語氣和預設行為適合你。</text>
+    <rect x="28" y="118" width="118" height="38" rx="19" fill="#DFF3EF"/><text x="64" y="143" class="chip" fill="#0F6F68">一般</text>
+    <rect x="160" y="118" width="118" height="38" rx="19" fill="#DFF3EF"/><text x="196" y="143" class="chip" fill="#0F6F68">外觀</text>
+    <rect x="28" y="172" width="118" height="38" rx="19" fill="#DFF3EF"/><text x="52" y="197" class="chip" fill="#0F6F68">個人化</text>
+    <rect x="160" y="172" width="118" height="38" rx="19" fill="#DFF3EF"/><text x="196" y="197" class="chip" fill="#0F6F68">封存</text>
+    <text x="28" y="246" class="note">新手建議：先保持預設，只調整外觀、</text>
+    <text x="28" y="270" class="note">通知和個人化語氣。</text>
+  </g>
+
+  <g transform="translate(395 142)">
+    <rect width="310" height="300" rx="18" fill="#FFFFFF" stroke="#BFD0CC"/>
+    <circle cx="38" cy="42" r="15" fill="#2F6F9F"/>
+    <text x="66" y="50" class="h">執行邊界</text>
+    <text x="28" y="92" class="p">決定 Codex 能改哪裡、跑什麼、怎麼並行。</text>
+    <rect x="28" y="118" width="118" height="38" rx="19" fill="#E1EDF6"/><text x="64" y="143" class="chip" fill="#2F6F9F">設定</text>
+    <rect x="160" y="118" width="118" height="38" rx="19" fill="#E1EDF6"/><text x="204" y="143" class="chip" fill="#2F6F9F">Git</text>
+    <rect x="28" y="172" width="118" height="38" rx="19" fill="#E1EDF6"/><text x="64" y="197" class="chip" fill="#2F6F9F">環境</text>
+    <rect x="160" y="172" width="118" height="38" rx="19" fill="#E1EDF6"/><text x="188" y="197" class="chip" fill="#2F6F9F">工作樹</text>
+    <rect x="28" y="226" width="118" height="38" rx="19" fill="#E1EDF6"/><text x="52" y="251" class="chip" fill="#2F6F9F">使用量</text>
+  </g>
+
+  <g transform="translate(742 142)">
+    <rect width="310" height="300" rx="18" fill="#FFFFFF" stroke="#BFD0CC"/>
+    <circle cx="38" cy="42" r="15" fill="#B98A2D"/>
+    <text x="66" y="50" class="h">擴充能力</text>
+    <text x="28" y="92" class="p">讓 Codex 連線工具、瀏覽器和桌面應用。</text>
+    <rect x="28" y="118" width="118" height="38" rx="19" fill="#F6EED8"/><text x="66" y="143" class="chip" fill="#8A651A">MCP</text>
+    <rect x="160" y="118" width="118" height="38" rx="19" fill="#F6EED8"/><text x="196" y="143" class="chip" fill="#8A651A">Hooks</text>
+    <rect x="28" y="172" width="118" height="38" rx="19" fill="#F6EED8"/><text x="56" y="197" class="chip" fill="#8A651A">瀏覽器</text>
+    <rect x="160" y="172" width="118" height="38" rx="19" fill="#F6EED8"/><text x="180" y="197" class="chip" fill="#8A651A">電腦操控</text>
+    <text x="28" y="246" class="note">先開最小權限；涉及帳號、檔案和</text>
+    <text x="28" y="270" class="note">瀏覽器操作時逐次審核。</text>
+  </g>
+</svg>

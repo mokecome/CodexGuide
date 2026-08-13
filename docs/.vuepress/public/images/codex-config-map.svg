@@ -1,0 +1,65 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" fill="none" aria-labelledby="title desc" role="img" viewBox="0 0 1200 680">
+  <title id="title">Codex 設定地圖</title>
+  <desc id="desc">展示 Codex 從專案規則、本機設定、擴充能力到安全邊界的設定層級。</desc>
+  <defs>
+    <style>
+      .title{font:800 38px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .sub{font:500 18px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .h{font:800 22px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .p{font:600 17px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#334155}
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="32" fill="#F2F7F6"/>
+  <rect x="54" y="54" width="1092" height="572" rx="28" fill="#FFFFFF" stroke="#BFD0CC"/>
+  <text x="94" y="116" class="title">Codex 設定地圖</text>
+  <text x="94" y="154" class="sub">先寫清規則，再調整環境，接著擴充能力，最後收緊安全邊界。</text>
+
+  <g>
+    <rect x="94" y="208" width="230" height="318" rx="20" fill="#F3E8CE" stroke="#D5BE88"/>
+    <circle cx="126" cy="246" r="12" fill="#B98A2D"/>
+    <text x="150" y="254" class="h">專案規則</text>
+    <text x="126" y="305" class="p">AGENTS.md</text>
+    <text x="126" y="343" class="p">程式風格</text>
+    <text x="126" y="381" class="p">測試命令</text>
+    <text x="126" y="419" class="p">目錄邊界</text>
+    <text x="126" y="457" class="p">團隊約定</text>
+  </g>
+
+  <g>
+    <rect x="358" y="208" width="230" height="318" rx="20" fill="#E2EEF6" stroke="#A9C7DC"/>
+    <circle cx="390" cy="246" r="12" fill="#2F6F9F"/>
+    <text x="414" y="254" class="h">本機設定</text>
+    <text x="390" y="305" class="p">config.toml</text>
+    <text x="390" y="343" class="p">profiles</text>
+    <text x="390" y="381" class="p">sandbox</text>
+    <text x="390" y="419" class="p">approvals</text>
+    <text x="390" y="457" class="p">環境變數</text>
+  </g>
+
+  <g>
+    <rect x="622" y="208" width="230" height="318" rx="20" fill="#DDF1ED" stroke="#9BCBC3"/>
+    <circle cx="654" cy="246" r="12" fill="#0F6F68"/>
+    <text x="678" y="254" class="h">擴充能力</text>
+    <text x="654" y="305" class="p">Skills</text>
+    <text x="654" y="343" class="p">MCP servers</text>
+    <text x="654" y="381" class="p">Subagents</text>
+    <text x="654" y="419" class="p">Plugins</text>
+    <text x="654" y="457" class="p">Automations</text>
+  </g>
+
+  <g>
+    <rect x="886" y="208" width="230" height="318" rx="20" fill="#FEF2F2" stroke="#E5A4A4"/>
+    <circle cx="918" cy="246" r="12" fill="#B65B68"/>
+    <text x="942" y="254" class="h">安全邊界</text>
+    <text x="918" y="305" class="p">預設只讀</text>
+    <text x="918" y="343" class="p">審核策略</text>
+    <text x="918" y="381" class="p">網路權限</text>
+    <text x="918" y="419" class="p">敏感檔案</text>
+    <text x="918" y="457" class="p">稽核紀錄</text>
+  </g>
+
+  <path d="M324 367H358M588 367H622M852 367H886" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M348 357L358 367L348 377M612 357L622 367L612 377M876 357L886 367L876 377" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="94" y="562" width="1022" height="1.5" fill="#BFD0CC"/>
+  <text x="94" y="599" class="sub">建議順序：先寫清專案級 AGENTS.md，再調本機 config.toml，接著接入 MCP / Skills，最後依團隊要求管理審核和權限。</text>
+</svg>

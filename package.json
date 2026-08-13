@@ -1,0 +1,27 @@
+{
+  "name": "codex-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex 新手實戰指南：面向初學者、創作者、開發者與團隊的 Codex 實踐指南",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --host 0.0.0.0",
+    "build": "vuepress build docs",
+    "check:sources": "node scripts/check-official-sources.mjs",
+    "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
+    "preview": "vuepress dev docs --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/plugin-feed": "2.0.0-rc.128",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
+    "sass-embedded": "^1.97.2",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-hope": "2.0.0-rc.106"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

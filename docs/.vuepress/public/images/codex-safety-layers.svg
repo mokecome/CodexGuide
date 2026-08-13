@@ -1,0 +1,34 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" fill="none" aria-labelledby="title desc" role="img" viewBox="0 0 1280 720">
+  <title id="title">Codex 安全邊界分層</title>
+  <desc id="desc">用任務說明、AGENTS.md、沙盒審核和驗證評審管理 Codex 任務風險。</desc>
+  <defs>
+    <style>
+      .title{font:800 44px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .sub{font:500 22px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .h{font:800 28px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .p{font:600 22px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#475569}
+    </style>
+  </defs>
+  <rect width="1280" height="720" rx="36" fill="#F2F7F6"/>
+  <rect x="64" y="54" width="1152" height="612" rx="28" fill="#FFFFFF" stroke="#BFD0CC"/>
+  <text x="88" y="114" class="title">Codex 安全邊界分層</text>
+  <text x="88" y="154" class="sub">用任務規則、執行環境和人工驗證共同約束風險。</text>
+
+  <g>
+    <rect x="120" y="220" width="1040" height="86" rx="18" fill="#DDF1ED" stroke="#9BCBC3"/>
+    <text x="162" y="274" class="h">1. 任務說明</text>
+    <text x="398" y="274" class="p">目標、範圍、禁止事項、驗收標準</text>
+
+    <rect x="160" y="326" width="960" height="86" rx="18" fill="#E2EEF6" stroke="#A9C7DC"/>
+    <text x="202" y="380" class="h">2. AGENTS.md</text>
+    <text x="438" y="380" class="p">專案結構、命令、程式風格、安全規則</text>
+
+    <rect x="200" y="432" width="880" height="86" rx="18" fill="#ECE7F3" stroke="#C4B7D8"/>
+    <text x="242" y="486" class="h">3. 沙盒與審核</text>
+    <text x="514" y="486" class="p">檔案寫入、網路、命令執行、權限確認</text>
+
+    <rect x="240" y="538" width="800" height="86" rx="18" fill="#F3E8CE" stroke="#D5BE88"/>
+    <text x="282" y="592" class="h">4. 驗證與評審</text>
+    <text x="552" y="592" class="p">測試、diff、人工 review、上線前檢查</text>
+  </g>
+</svg>

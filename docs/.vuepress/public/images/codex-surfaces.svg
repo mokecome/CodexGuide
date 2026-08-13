@@ -1,0 +1,53 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" fill="none" aria-labelledby="title desc" role="img" viewBox="0 0 1280 720">
+  <title id="title">Codex 使用入口地圖</title>
+  <desc id="desc">整理 CLI、Cloud、IDE、Codex App、ChatGPT 與整合生態的適用場景。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F2F7F6"/>
+      <stop offset="1" stop-color="#DCECE8"/>
+    </linearGradient>
+    <style>
+      .title{font:800 44px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .sub{font:500 22px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .h{font:800 28px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .p{font:600 20px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#334155}
+      .m{font:500 17px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+    </style>
+  </defs>
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <rect x="54" y="48" width="1172" height="624" rx="28" fill="#FFFFFF" stroke="#BFD0CC"/>
+  <text x="88" y="116" class="title">Codex 使用入口地圖</text>
+  <text x="88" y="158" class="sub">同一套 AI 工作能力，依照任務節奏放到最適合的入口。</text>
+
+  <g>
+    <rect x="88" y="220" width="240" height="180" rx="18" fill="#DDF1ED" stroke="#9BCBC3"/>
+    <text x="116" y="270" class="h">CLI</text>
+    <text x="116" y="314" class="p">終端機快速迭代</text>
+    <text x="116" y="350" class="m">讀專案 · 改檔案 · 跑測試</text>
+
+    <rect x="376" y="220" width="240" height="180" rx="18" fill="#E2EEF6" stroke="#A9C7DC"/>
+    <text x="404" y="270" class="h">Cloud / Web</text>
+    <text x="404" y="314" class="p">長任務與並行任務</text>
+    <text x="404" y="350" class="m">GitHub · PR · 背景執行</text>
+
+    <rect x="664" y="220" width="240" height="180" rx="18" fill="#ECE7F3" stroke="#C4B7D8"/>
+    <text x="692" y="270" class="h">IDE</text>
+    <text x="692" y="314" class="p">貼近編輯器上下文</text>
+    <text x="692" y="350" class="m">解釋程式 · 區域性修改 · Review</text>
+
+    <rect x="952" y="220" width="240" height="180" rx="18" fill="#F3E8CE" stroke="#D5BE88"/>
+    <text x="980" y="270" class="h">Codex App</text>
+    <text x="980" y="314" class="p">本地多工工作台</text>
+    <text x="980" y="350" class="m">Agents · Skills · 自動化</text>
+  </g>
+
+  <g>
+    <rect x="232" y="466" width="360" height="118" rx="18" fill="#F4F6F2" stroke="#BFD0CC"/>
+    <text x="264" y="514" class="h" font-size="25">ChatGPT 裡的 Codex</text>
+    <text x="264" y="552" class="m">從對話分派倉庫任務、理解內容與協作跟進</text>
+
+    <rect x="688" y="466" width="360" height="118" rx="18" fill="#F4F6F2" stroke="#BFD0CC"/>
+    <text x="720" y="514" class="h" font-size="25">整合生態</text>
+    <text x="720" y="552" class="m">GitHub · Slack · Linear · MCP · 團隊流程</text>
+  </g>
+</svg>

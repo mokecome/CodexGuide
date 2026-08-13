@@ -1,0 +1,282 @@
+[
+  {
+    "id": "chatgpt-codex-cloud",
+    "title": "ChatGPT Codex Cloud",
+    "url": "https://chatgpt.com/codex/cloud",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/01-app-installation.md", "docs/guide/17-cloud-ide-app.md"]
+  },
+  {
+    "id": "chatgpt-pricing",
+    "title": "ChatGPT pricing",
+    "url": "https://chatgpt.com/pricing/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/02-subscribe-plus.md"]
+  },
+  {
+    "id": "codex-docs-home",
+    "title": "Codex docs home",
+    "url": "https://developers.openai.com/codex/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/index.md", "docs/platform/app.md", "docs/platform/cloud.md", "docs/platform/ide.md", "docs/configuration/index.md", "docs/configuration/mcp-skills-subagents.md", "docs/configuration/security-admin.md"]
+  },
+  {
+    "id": "codex-agent-approvals-security",
+    "title": "Codex agent approvals and security",
+    "url": "https://developers.openai.com/codex/agent-approvals-security",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/app.md", "docs/guide/03-app-overview.md", "docs/guide/13-cli-first-run.md", "docs/configuration/index.md", "docs/configuration/security-admin.md"]
+  },
+  {
+    "id": "codex-app-docs",
+    "title": "Codex App docs",
+    "url": "https://developers.openai.com/codex/app",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/app.md", "docs/guide/03-app-overview.md"]
+  },
+  {
+    "id": "codex-app-settings",
+    "title": "Codex App settings",
+    "url": "https://developers.openai.com/codex/app/settings",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/03-app-overview.md"]
+  },
+  {
+    "id": "codex-cli-features",
+    "title": "Codex CLI features",
+    "url": "https://developers.openai.com/codex/cli/features",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cli.md", "docs/guide/13-cli-first-run.md", "docs/configuration/index.md", "docs/configuration/cli-options.md"]
+  },
+  {
+    "id": "codex-config-advanced",
+    "title": "Codex config advanced",
+    "url": "https://developers.openai.com/codex/config-advanced",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/configuration/index.md", "docs/configuration/config-file.md"]
+  },
+  {
+    "id": "codex-config-basic",
+    "title": "Codex config basic",
+    "url": "https://developers.openai.com/codex/config-basic",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/guide/03-app-overview.md", "docs/configuration/index.md", "docs/configuration/config-file.md"]
+  },
+  {
+    "id": "codex-config-reference",
+    "title": "Codex config reference",
+    "url": "https://developers.openai.com/codex/config-reference",
+    "type": "official",
+    "lastManualReviewed": "2026-05-29",
+    "pages": ["docs/reference/index.md", "docs/guide/05-third-party-api.md", "docs/configuration/index.md", "docs/configuration/config-file.md"]
+  },
+  {
+    "id": "codex-explore",
+    "title": "Codex explore",
+    "url": "https://developers.openai.com/codex/explore/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/recipes/chrome-browser-plugin.md", "docs/recipes/credits.md"]
+  },
+  {
+    "id": "codex-agents-md",
+    "title": "Codex AGENTS.md guide",
+    "url": "https://developers.openai.com/codex/guides/agents-md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/guide/13-cli-first-run.md", "docs/guide/15-agents-md.md", "docs/configuration/index.md"]
+  },
+  {
+    "id": "codex-security",
+    "title": "Codex security",
+    "url": "https://developers.openai.com/codex/security",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/16-sandbox-approvals.md"]
+  },
+  {
+    "id": "codex-skills",
+    "title": "Codex skills",
+    "url": "https://developers.openai.com/codex/skills",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/app.md", "docs/guide/09-skills-plugins.md", "docs/recipes/credits.md", "docs/recipes/ppt-skill-walkthrough.md", "docs/configuration/index.md", "docs/configuration/mcp-skills-subagents.md"]
+  },
+  {
+    "id": "codex-use-cases",
+    "title": "Codex use cases",
+    "url": "https://developers.openai.com/codex/use-cases/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/10-automation.md"]
+  },
+  {
+    "id": "openai-codex-repo",
+    "title": "openai/codex repository",
+    "url": "https://github.com/openai/codex",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["README.md", "docs/reference/index.md", "docs/platform/index.md", "docs/platform/cli.md", "docs/guide/12-cli-installation.md", "docs/guide/15-agents-md.md", "docs/configuration/cli-options.md"]
+  },
+  {
+    "id": "openai-codex-agents-md-doc",
+    "title": "openai/codex AGENTS.md docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/agents_md.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md"]
+  },
+  {
+    "id": "openai-codex-authentication-doc",
+    "title": "openai/codex authentication docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/authentication.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md"]
+  },
+  {
+    "id": "openai-codex-config-doc",
+    "title": "openai/codex config docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/config.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/configuration/config-file.md"]
+  },
+  {
+    "id": "openai-codex-exec-doc",
+    "title": "openai/codex exec docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/exec.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cli.md", "docs/configuration/cli-options.md"]
+  },
+  {
+    "id": "openai-codex-exec-policy-doc",
+    "title": "openai/codex exec policy docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/execpolicy.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/configuration/security-admin.md"]
+  },
+  {
+    "id": "openai-codex-getting-started-doc",
+    "title": "openai/codex getting started docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/getting-started.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cli.md", "docs/guide/13-cli-first-run.md", "docs/configuration/cli-options.md"]
+  },
+  {
+    "id": "openai-codex-install-doc",
+    "title": "openai/codex install docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/install.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cli.md", "docs/guide/12-cli-installation.md"]
+  },
+  {
+    "id": "openai-codex-sandbox-doc",
+    "title": "openai/codex sandbox docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/sandbox.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/guide/16-sandbox-approvals.md", "docs/configuration/security-admin.md"]
+  },
+  {
+    "id": "openai-codex-skills-doc",
+    "title": "openai/codex skills docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/skills.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/configuration/mcp-skills-subagents.md"]
+  },
+  {
+    "id": "openai-codex-slash-commands-doc",
+    "title": "openai/codex slash commands docs",
+    "url": "https://github.com/openai/codex/blob/main/docs/slash_commands.md",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cli.md", "docs/configuration/cli-options.md"]
+  },
+  {
+    "id": "codex-cli-help-center",
+    "title": "OpenAI Codex CLI getting started",
+    "url": "https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["README.md", "docs/reference/index.md", "docs/guide/08-permissions.md", "docs/guide/12-cli-installation.md"]
+  },
+  {
+    "id": "codex-in-chatgpt-help-center",
+    "title": "Codex in ChatGPT Help Center",
+    "url": "https://help.openai.com/en/articles/11369540-codex-in-chatgpt",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["README.md", "docs/reference/index.md", "docs/platform/index.md", "docs/platform/chatgpt.md", "docs/platform/cloud.md", "docs/guide/12-cli-installation.md"]
+  },
+  {
+    "id": "using-codex-with-chatgpt-plan",
+    "title": "Using Codex with your ChatGPT plan",
+    "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/guide/02-subscribe-plus.md", "docs/guide/08-permissions.md", "docs/guide/09-skills-plugins.md", "docs/guide/10-automation.md", "docs/recipes/chrome-browser-plugin.md", "docs/recipes/credits.md"]
+  },
+  {
+    "id": "openai-codex-product",
+    "title": "OpenAI Codex product page",
+    "url": "https://openai.com/codex/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["README.md", "docs/reference/index.md", "docs/platform/index.md", "docs/platform/chatgpt.md", "docs/platform/ide.md", "docs/guide/01-app-installation.md"]
+  },
+  {
+    "id": "introducing-codex",
+    "title": "Introducing Codex",
+    "url": "https://openai.com/index/introducing-codex/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/cloud.md"]
+  },
+  {
+    "id": "introducing-the-codex-app",
+    "title": "Introducing the Codex app",
+    "url": "https://openai.com/index/introducing-the-codex-app/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/platform/app.md"]
+  },
+  {
+    "id": "unrolling-the-codex-agent-loop",
+    "title": "Unrolling the Codex agent loop",
+    "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md"]
+  },
+  {
+    "id": "work-with-codex-from-anywhere",
+    "title": "Work with Codex from anywhere",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["docs/reference/index.md", "docs/guide/04-mobile-control-desktop.md"]
+  },
+  {
+    "id": "codex-platform-docs",
+    "title": "Codex platform docs",
+    "url": "https://platform.openai.com/docs/codex",
+    "type": "official",
+    "lastManualReviewed": "2026-05-27",
+    "pages": ["README.md", "docs/reference/index.md", "docs/platform/chatgpt.md", "docs/platform/cloud.md"]
+  }
+]

@@ -1,0 +1,44 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" fill="none" aria-labelledby="title desc" role="img" viewBox="0 0 1280 720">
+  <title id="title">Codex 高品質任務閉環</title>
+  <desc id="desc">把一次 Codex 任務拆成說明、探索、實作、驗證與復盤。</desc>
+  <defs>
+    <style>
+      .title{font:800 44px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .sub{font:500 22px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+      .h{font:800 24px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#172033}
+      .p{font:500 18px -apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;fill:#64748B}
+    </style>
+  </defs>
+  <rect width="1280" height="720" rx="36" fill="#F2F7F6"/>
+  <rect x="64" y="54" width="1152" height="612" rx="28" fill="#FFFFFF" stroke="#BFD0CC"/>
+  <text x="90" y="112" class="title">Codex 高品質任務閉環</text>
+  <text x="90" y="152" class="sub">把一次任務拆成可觀察、可驗證、可復盤的工作迴圈。</text>
+
+  <path d="M352 342C398 299 431 279 431 279" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M612 248H708" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M891 277C935 300 954 326 954 326" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M952 422C875 485 757 512 732 515" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M548 514C431 501 338 440 315 421" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="260" cy="360" r="92" fill="#DDF1ED" stroke="#9BCBC3" stroke-width="3"/>
+    <text x="236" y="354" class="h">說明</text>
+    <text x="190" y="390" class="p">目標 / 範圍 / 限制</text>
+
+    <circle cx="520" cy="248" r="92" fill="#E2EEF6" stroke="#A9C7DC" stroke-width="3"/>
+    <text x="496" y="242" class="h">探索</text>
+    <text x="448" y="278" class="p">讀專案 / 找入口</text>
+
+    <circle cx="800" cy="248" r="92" fill="#ECE7F3" stroke="#C4B7D8" stroke-width="3"/>
+    <text x="776" y="242" class="h">實作</text>
+    <text x="724" y="278" class="p">小步修改 / 控制 diff</text>
+
+    <circle cx="1020" cy="360" r="92" fill="#F3E8CE" stroke="#D5BE88" stroke-width="3"/>
+    <text x="996" y="354" class="h">驗證</text>
+    <text x="944" y="390" class="p">測試 / 執行 / 檢查</text>
+
+    <circle cx="640" cy="512" r="92" fill="#F4F6F2" stroke="#CBD5E1" stroke-width="3"/>
+    <text x="616" y="506" class="h">復盤</text>
+    <text x="560" y="542" class="p">原因 / 改動 / 風險</text>
+  </g>
+</svg>

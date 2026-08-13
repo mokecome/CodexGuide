@@ -1,0 +1,45 @@
+name: Official source check
+
+on:
+  schedule:
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: "10.33.0"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check official sources
+        run: pnpm check:sources
+
+      - name: Commit report updates
+        run: |
+          if [ -z "$(git status --porcelain docs/.vuepress/source-check-snapshots.json docs/reference/source-check-report.md)" ]; then
+            echo "No source check changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/.vuepress/source-check-snapshots.json docs/reference/source-check-report.md
+          git commit -m "chore: update official source check report"
+          git push
