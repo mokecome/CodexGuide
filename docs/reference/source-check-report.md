@@ -4,7 +4,7 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 
 # 官方資料自動檢查報告
 
-最後自動檢查日期：2026-08-17。
+最後自動檢查日期：2026-08-24。
 
 > 這份報告只代表官方連結可訪問與內容指紋是否變化，不代表文章內容已完成人工核對。文章內的「官方資料最後核對日期」仍需人工確認後再更新。
 
@@ -12,9 +12,9 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 
 | 狀態 | 數量 |
 | --- | ---: |
-| 正常 | 8 |
+| 正常 | 10 |
 | 受保護 | 10 |
-| 需人工核對 | 17 |
+| 需人工核對 | 15 |
 | 錯誤 | 0 |
 
 ## 需人工核對
@@ -33,8 +33,6 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 - [Codex skills](https://developers.openai.com/codex/skills)：內容 hash 和上次檢查不同，請人工打開原文核對。
 - [Codex use cases](https://developers.openai.com/codex/use-cases/)：內容 hash 和上次檢查不同，請人工打開原文核對。
 - [openai/codex repository](https://github.com/openai/codex)：內容 hash 和上次檢查不同，請人工打開原文核對。
-- [openai/codex AGENTS.md docs](https://github.com/openai/codex/blob/main/docs/agents_md.md)：內容 hash 和上次檢查不同，請人工打開原文核對。
-- [openai/codex install docs](https://github.com/openai/codex/blob/main/docs/install.md)：內容 hash 和上次檢查不同，請人工打開原文核對。
 - [Codex platform docs](https://platform.openai.com/docs/codex)：內容 hash 和上次檢查不同，請人工打開原文核對。
 
 ## 錯誤項目
@@ -65,13 +63,13 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 | 需人工核對 | [Codex skills](https://developers.openai.com/codex/skills) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/app.md`<br>`docs/guide/09-skills-plugins.md`<br>`docs/recipes/credits.md`<br>`docs/recipes/ppt-skill-walkthrough.md`<br>`docs/configuration/index.md`<br>`docs/configuration/mcp-skills-subagents.md` |
 | 需人工核對 | [Codex use cases](https://developers.openai.com/codex/use-cases/) | 200 | 2026-05-27 | `docs/guide/10-automation.md` |
 | 需人工核對 | [openai/codex repository](https://github.com/openai/codex) | 200 | 2026-05-27 | `README.md`<br>`docs/reference/index.md`<br>`docs/platform/index.md`<br>`docs/platform/cli.md`<br>`docs/guide/12-cli-installation.md`<br>`docs/guide/15-agents-md.md`<br>`docs/configuration/cli-options.md` |
-| 需人工核對 | [openai/codex AGENTS.md docs](https://github.com/openai/codex/blob/main/docs/agents_md.md) | 200 | 2026-05-27 | `docs/reference/index.md` |
+| 正常 | [openai/codex AGENTS.md docs](https://github.com/openai/codex/blob/main/docs/agents_md.md) | 200 | 2026-05-27 | `docs/reference/index.md` |
 | 正常 | [openai/codex authentication docs](https://github.com/openai/codex/blob/main/docs/authentication.md) | 200 | 2026-05-27 | `docs/reference/index.md` |
 | 正常 | [openai/codex config docs](https://github.com/openai/codex/blob/main/docs/config.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/configuration/config-file.md` |
 | 正常 | [openai/codex exec docs](https://github.com/openai/codex/blob/main/docs/exec.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cli.md`<br>`docs/configuration/cli-options.md` |
 | 正常 | [openai/codex exec policy docs](https://github.com/openai/codex/blob/main/docs/execpolicy.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/configuration/security-admin.md` |
 | 正常 | [openai/codex getting started docs](https://github.com/openai/codex/blob/main/docs/getting-started.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cli.md`<br>`docs/guide/13-cli-first-run.md`<br>`docs/configuration/cli-options.md` |
-| 需人工核對 | [openai/codex install docs](https://github.com/openai/codex/blob/main/docs/install.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cli.md`<br>`docs/guide/12-cli-installation.md` |
+| 正常 | [openai/codex install docs](https://github.com/openai/codex/blob/main/docs/install.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cli.md`<br>`docs/guide/12-cli-installation.md` |
 | 正常 | [openai/codex sandbox docs](https://github.com/openai/codex/blob/main/docs/sandbox.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/guide/16-sandbox-approvals.md`<br>`docs/configuration/security-admin.md` |
 | 正常 | [openai/codex skills docs](https://github.com/openai/codex/blob/main/docs/skills.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/configuration/mcp-skills-subagents.md` |
 | 正常 | [openai/codex slash commands docs](https://github.com/openai/codex/blob/main/docs/slash_commands.md) | 200 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cli.md`<br>`docs/configuration/cli-options.md` |
