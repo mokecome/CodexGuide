@@ -4,7 +4,7 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 
 # 官方資料自動檢查報告
 
-最後自動檢查日期：2026-08-31。
+最後自動檢查日期：2026-09-07。
 
 > 這份報告只代表官方連結可訪問與內容指紋是否變化，不代表文章內容已完成人工核對。文章內的「官方資料最後核對日期」仍需人工確認後再更新。
 
@@ -13,9 +13,9 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 | 狀態 | 數量 |
 | --- | ---: |
 | 正常 | 10 |
-| 受保護 | 10 |
+| 受保護 | 9 |
 | 需人工核對 | 15 |
-| 錯誤 | 0 |
+| 錯誤 | 1 |
 
 ## 需人工核對
 
@@ -37,7 +37,7 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 
 ## 錯誤項目
 
-目前沒有偵測到錯誤連結。
+- [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/)：HTTP 403
 
 ## 受保護來源
 
@@ -78,7 +78,7 @@ description: "OpenAI 官方資料來源自動檢查報告，記錄官方連結�
 | 受保護 | [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `docs/guide/02-subscribe-plus.md`<br>`docs/guide/08-permissions.md`<br>`docs/guide/09-skills-plugins.md`<br>`docs/guide/10-automation.md`<br>`docs/recipes/chrome-browser-plugin.md`<br>`docs/recipes/credits.md` |
 | 受保護 | [OpenAI Codex product page](https://openai.com/codex/) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `README.md`<br>`docs/reference/index.md`<br>`docs/platform/index.md`<br>`docs/platform/chatgpt.md`<br>`docs/platform/ide.md`<br>`docs/guide/01-app-installation.md` |
 | 受保護 | [Introducing Codex](https://openai.com/index/introducing-codex/) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/cloud.md` |
-| 受保護 | [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/app.md` |
+| 錯誤 | [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/) | 403 | 2026-05-27 | `docs/reference/index.md`<br>`docs/platform/app.md` |
 | 受保護 | [Unrolling the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop/) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `docs/reference/index.md` |
 | 受保護 | [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere/) | 403 (Cloudflare challenge，需用瀏覽器人工核對內容。) | 2026-05-27 | `docs/reference/index.md`<br>`docs/guide/04-mobile-control-desktop.md` |
 | 需人工核對 | [Codex platform docs](https://platform.openai.com/docs/codex) | 200 | 2026-05-27 | `README.md`<br>`docs/reference/index.md`<br>`docs/platform/chatgpt.md`<br>`docs/platform/cloud.md` |
